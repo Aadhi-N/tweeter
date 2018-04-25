@@ -39,6 +39,15 @@ header {
 	height: 80px;
 }
 
+.tweet {
+	filter:opacity(50%);
+
+}
+
+.tweet:hover {
+	filter: opacity(100%);
+}
+
 .tweet img {
 	float: left;
 	width: 60px;
@@ -61,12 +70,23 @@ header {
 	padding-left: 20px;
 }
 
-.tweet h5 {
+.tweet footer h5 {
 	border-top: solid #cacaca;
 	border-width: 1px;
 	text-align: left;
 	padding-top: 10px;
 	padding-left: 10px;
 }
+
+.tweet footer i {
+	float: right;
+	padding: 2px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+
+}
+
+
  
 
