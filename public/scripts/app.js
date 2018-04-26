@@ -55,7 +55,7 @@ function createTweetElement (tweet) {
     <i class="fas fa-heart"></i>
     <i class="fas fa-share-alt"></i>
     <i class="fas fa-flag"></i>
-    <h5>${tweet.created_at}</h5>
+    <h5>${convertTime(tweet.created_at)}</h5>
     </footer>
     
     </article>`
@@ -79,8 +79,7 @@ function renderTweets(tweets) {
   }
 };
 
-// function convertDate() {
-//   var unixTime = ${tweet.created_at};
-//   var day = unixTime.getDate();
-//   console.log(day);
-// }
+
+function convertTime(time) {
+  return moment(time).startOf("minute").fromNow();
+}
