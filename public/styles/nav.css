@@ -20,3 +20,19 @@ nav {
 	text-align: center;
 
 }
+
+button {
+	background-color: #e8fdff;
+	color: #00a087;
+	width: 90px;
+	height: 50px;
+	border-radius: 8px 8px 8px 8px;
+	float: right;
+	margin-top: 15px;
+	border: 2px solid #000000;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
