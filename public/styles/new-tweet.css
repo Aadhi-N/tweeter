@@ -39,9 +39,6 @@ header {
 	height: 80px;
 }
 
-.new-tweet {
-	/*need to toggle and then display*/
-}
 
 .tweet {
 	filter:opacity(50%);

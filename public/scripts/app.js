@@ -36,6 +36,8 @@ $(document).ready(function() {
       });
   }
 
+  loadTweets()
+
 
 });//bracket closing document.ready
 
