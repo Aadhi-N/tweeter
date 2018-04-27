@@ -1,5 +1,45 @@
-$navbar-color: #00a087; 
+$navbar-color: #00a087;
+$navbar-text-color: #e8fdff;
+$button-background-color: #e8fdff;
+$button-text-color: #00a087;
 
 nav {
+
+	#nav-bar{
 	background-color: $navbar-color;
+	height: 80px;
+	width: 100%;
+	color: $navbar-text-color;
+	padding: 0em 2em 0em 2em;
+	}
+
+	#nav-bar .logo {
+	width: 80px; 
+	height: 80px;
+	float: left;
+	}
+
+	#nav-bar .header {
+	float: left;
+	font-size: 30px;
+	padding: 25px 0px 0px 10px;
+	text-align: center;
+	}
+
+	button {
+	background-color: $button-background-color;
+	color: $button-text-color;
+	width: 90px;
+	height: 50px;
+	border-radius: 8px 8px 8px 8px;
+	float: right;
+	margin-top: 15px;
+	border: 2px solid #000000;
+	}
+
+	button:hover {
+	background-color: #ffffff;
+	color: #000000;
+	}
+
 }

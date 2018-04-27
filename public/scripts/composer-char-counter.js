@@ -11,3 +11,6 @@ $(document).ready(function() {
 });
 
 
+
+
+// > db.tweets.update({	"_id" : ObjectId("5ae37ca80e0941567b5ab4c4") },{$set : {"likes":4}})
