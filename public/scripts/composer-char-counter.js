@@ -1,13 +1,12 @@
+// Apply styling to character count
 $(document).ready(function() {
   $("textarea").keypress(function () {
-    var max = 140;
-    var value = $(this).val().length;
-    var value = max - value;
-    $(this).siblings(".counter").text(value);
+    const max = 140;
+    const value = $(this).val().length;
+    $(this).siblings(".counter").text(max - value);
     if ($(this).val().length > max) {
     	$(".counter").css('color', 'red');
     }
   });
 });
-
 
